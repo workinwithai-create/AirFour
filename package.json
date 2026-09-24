@@ -2,6 +2,6 @@
   "name": "airfour",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html && cp styles.css dist/styles.css && cp app.js dist/app.js && cp -r public dist/public 2>/dev/null || true"
+    "build": "mkdir -p public && cp index.html public/index.html && cp styles.css public/styles.css && cp app.js public/app.js"
   }
 }
